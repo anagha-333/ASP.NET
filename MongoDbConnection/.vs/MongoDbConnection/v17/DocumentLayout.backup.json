@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|c:\\users\\anagha\\source\\repos\\mongodbconnection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|c:\\users\\anagha\\source\\repos\\mongodbconnection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|c:\\users\\anagha\\source\\repos\\mongodbconnection\\model\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|solutionrelative:model\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|c:\\users\\anagha\\source\\repos\\mongodbconnection\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|solutionrelative:model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|c:\\users\\anagha\\source\\repos\\mongodbconnection\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|c:\\users\\anagha\\source\\repos\\mongodbconnection\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C2618A-0913-4CEE-9A66-1F5D5F620E75}|MongoDbConnection.csproj|solutionrelative:service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\service\\StudentService.cs",
+              "RelativeDocumentMoniker": "service\\StudentService.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\service\\StudentService.cs",
+              "RelativeToolTip": "service\\StudentService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:07:51.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T08:06:11.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:13:24.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:10:21.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\model\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "model\\MongoDbSettings.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\model\\MongoDbSettings.cs",
+              "RelativeToolTip": "model\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T08:02:51.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\model\\Student.cs",
+              "RelativeDocumentMoniker": "model\\Student.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\MongoDbConnection\\model\\Student.cs",
+              "RelativeToolTip": "model\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T07:46:36.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

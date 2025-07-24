@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:nlog.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\models\\carupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:models\\carupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:services\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:models\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarUpload.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\CarUpload.cs",
+              "RelativeDocumentMoniker": "models\\CarUpload.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\CarUpload.cs",
+              "RelativeToolTip": "models\\CarUpload.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwBsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:31:14.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\nlog.config",
+              "RelativeDocumentMoniker": "nlog.config",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\nlog.config",
+              "RelativeToolTip": "nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-15T08:22:42.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\User.cs",
+              "RelativeDocumentMoniker": "models\\User.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\User.cs",
+              "RelativeToolTip": "models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:21:38.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\Login.cs",
+              "RelativeDocumentMoniker": "models\\Login.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\Login.cs",
+              "RelativeToolTip": "models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:14:04.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:11:33.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Services\\CarService.cs",
+              "RelativeDocumentMoniker": "Services\\CarService.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Services\\CarService.cs",
+              "RelativeToolTip": "Services\\CarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:10:34.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAswJYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:09:47.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T12:07:18.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\Car.cs",
+              "RelativeDocumentMoniker": "models\\Car.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\Car.cs",
+              "RelativeToolTip": "models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:07:59.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAkwHoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:24:53.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "models\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\RegisterRequest.cs",
+              "RelativeToolTip": "models\\RegisterRequest.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T12:46:02.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "JWTSettings.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\JWTSettings.cs",
+              "RelativeDocumentMoniker": "models\\JWTSettings.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\JWTSettings.cs",
+              "RelativeToolTip": "models\\JWTSettings.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:06:44.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T04:59:25.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "models\\MongoDBSettings.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\models\\MongoDBSettings.cs",
+              "RelativeToolTip": "models\\MongoDBSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:06:08.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwBoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T09:14:57.554Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+2025-07-15 14:04:13.0736 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-15 14:04:13.2457 INFO Now listening on: http://localhost:5063
+2025-07-15 14:04:13.2972 INFO Application started. Press Ctrl+C to shut down.
+2025-07-15 14:04:13.2972 INFO Hosting environment: Development
+2025-07-15 14:04:13.2972 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-15 14:04:13.8952 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-15 14:04:14.0913 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 207.9767ms
+2025-07-15 14:04:14.1247 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-15 14:04:14.1247 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 3.2547ms
+2025-07-15 14:04:14.1817 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-15 14:04:14.2144 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 32.7264ms
+2025-07-15 14:04:14.3066 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-15 14:04:14.3238 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 17.2844ms
+2025-07-15 14:04:24.8436 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-15 14:04:24.8436 INFO CORS policy execution successful.
+2025-07-15 14:04:24.8436 WARN Failed to determine the https port for redirect.
+2025-07-15 14:04:24.8991 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 14:04:24.9172 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-15 14:04:25.5527 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-15 14:04:25.5599 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 637.9674ms
+2025-07-15 14:04:25.5599 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 14:04:25.5599 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 717.7770ms
+2025-07-15 14:05:31.9939 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-15 14:05:31.9939 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 7.7902ms
+2025-07-15 14:05:32.0270 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-15 14:05:32.0270 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 0.4397ms
+2025-07-15 14:05:32.0587 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-15 14:05:32.0743 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 15.6351ms
+2025-07-15 14:05:32.1279 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-15 14:05:32.1322 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 4.3501ms
+2025-07-15 14:05:49.1143 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/api - - -
+2025-07-15 14:05:49.1186 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/api - 404 0 - 4.3759ms
+2025-07-15 14:05:49.1186 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/swagger/api, Response status code: 404
+2025-07-15 14:06:02.0947 INFO Request starting HTTP/1.1 GET http://localhost:5063/api - - -
+2025-07-15 14:06:02.0947 INFO Request finished HTTP/1.1 GET http://localhost:5063/api - 404 0 - 4.1368ms
+2025-07-15 14:06:02.0947 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/api, Response status code: 404
+2025-07-15 14:06:25.9856 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/car - - -
+2025-07-15 14:06:25.9999 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-15 14:06:25.9999 INFO AuthenticationScheme: Bearer was challenged.
+2025-07-15 14:06:25.9999 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/car - 401 0 - 19.3848ms
+2025-07-15 14:06:53.0783 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 14:06:53.0783 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-15 14:06:53.0783 INFO AuthenticationScheme: Bearer was challenged.
+2025-07-15 14:06:53.0783 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 401 0 - 1.7681ms
+2025-07-15 14:07:24.8023 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 14:07:24.8388 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 14:07:24.8388 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 14:07:24.8388 INFO Fetching all cars
+2025-07-15 14:07:24.8883 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 14:07:24.8983 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 56.5173ms
+2025-07-15 14:07:24.8983 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 14:07:24.8983 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 96.2319ms
+2025-07-15 14:07:31.5040 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/car - - -
+2025-07-15 14:07:31.5156 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-15 14:07:31.5156 INFO AuthenticationScheme: Bearer was challenged.
+2025-07-15 14:07:31.5156 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/car - 401 0 - 12.2074ms
+2025-07-15 14:08:22.8336 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-15 14:08:22.8359 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 2.3899ms
+2025-07-15 14:08:24.7987 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 14:08:24.7987 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 14:08:24.7987 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 14:08:24.7987 INFO Fetching all cars
+2025-07-15 14:08:24.8189 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 14:08:24.8189 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 22.6457ms
+2025-07-15 14:08:24.8189 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 14:08:24.8189 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 24.4395ms
+2025-07-15 14:08:24.9989 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-15 14:08:24.9989 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-15 14:08:24.9989 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 0.2594ms
+2025-07-15 14:08:25.0154 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 13.5970ms
+2025-07-15 14:08:25.0757 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-15 14:08:25.0757 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 3.9305ms
+2025-07-15 14:08:46.5463 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 14:08:46.5463 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 14:08:46.5463 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 14:08:46.5463 INFO Fetching all cars
+2025-07-15 14:08:46.5612 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 14:08:46.5612 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 16.7795ms
+2025-07-15 14:08:46.5612 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 14:08:46.5612 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 17.8040ms
+2025-07-15 16:04:31.0961 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-15 16:04:31.0961 INFO CORS policy execution successful.
+2025-07-15 16:04:31.0961 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 3.7465ms
+2025-07-15 16:04:31.1077 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 16:04:31.1077 INFO CORS policy execution successful.
+2025-07-15 16:04:31.1166 INFO Failed to validate the token.
+2025-07-15 16:04:31.1166 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/15/2025 5:37:07 AM', Current time (UTC): '7/15/2025 10:34:31 AM'.
+2025-07-15 16:04:31.1166 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-15 16:04:31.1166 INFO AuthenticationScheme: Bearer was challenged.
+2025-07-15 16:04:31.1166 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 401 0 - 11.2040ms
+2025-07-15 17:58:42.1304 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-15 17:58:42.3069 INFO Now listening on: http://localhost:5063
+2025-07-15 17:58:42.3650 INFO Application started. Press Ctrl+C to shut down.
+2025-07-15 17:58:42.3656 INFO Hosting environment: Development
+2025-07-15 17:58:42.3656 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-15 17:58:42.5690 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-15 17:58:42.7352 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 175.9118ms
+2025-07-15 17:58:42.7522 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-15 17:58:42.7522 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.1484ms
+2025-07-15 17:58:42.7772 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-15 17:58:42.8064 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.1761ms
+2025-07-15 17:58:42.8946 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-15 17:58:42.9081 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 13.5265ms
+2025-07-15 17:59:04.9318 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Auth/login - - -
+2025-07-15 17:59:04.9318 INFO CORS policy execution successful.
+2025-07-15 17:59:04.9318 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Auth/login - 204 - - 10.2647ms
+2025-07-15 17:59:04.9488 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 57
+2025-07-15 17:59:04.9488 INFO CORS policy execution successful.
+2025-07-15 17:59:04.9488 WARN Failed to determine the https port for redirect.
+2025-07-15 17:59:05.0435 INFO Failed to validate the token.
+2025-07-15 17:59:05.0435 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/15/2025 5:37:07 AM', Current time (UTC): '7/15/2025 12:29:05 PM'.
+2025-07-15 17:59:05.0435 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 17:59:05.0638 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-15 17:59:05.6885 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-15 17:59:05.6957 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 627.4892ms
+2025-07-15 17:59:05.6957 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 17:59:05.6957 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 748.5179ms
+2025-07-15 17:59:05.7137 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-15 17:59:05.7137 INFO CORS policy execution successful.
+2025-07-15 17:59:05.7137 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 0.7711ms
+2025-07-15 17:59:05.7137 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 17:59:05.7137 INFO CORS policy execution successful.
+2025-07-15 17:59:05.7362 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 17:59:05.7362 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 17:59:05.7441 INFO Fetching all cars
+2025-07-15 17:59:05.7917 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 17:59:05.7917 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 62.8686ms
+2025-07-15 17:59:05.7917 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 17:59:05.7917 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 81.8221ms
+2025-07-15 17:59:06.0037 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/image.jpg - - -
+2025-07-15 17:59:06.0235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/revv - - -
+2025-07-15 17:59:06.0235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/hgfdd - - -
+2025-07-15 17:59:06.0235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fdfdf - - -
+2025-07-15 17:59:06.0235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d - - -
+2025-07-15 17:59:06.0235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/revv - 404 0 - 8.6552ms
+2025-07-15 17:59:06.0235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d - 404 0 - 3.1063ms
+2025-07-15 17:59:06.0235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/hgfdd - 404 0 - 8.6558ms
+2025-07-15 17:59:06.0235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fdfdf - 404 0 - 7.6170ms
+2025-07-15 17:59:06.0235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/fdfdf, Response status code: 404
+2025-07-15 17:59:06.0235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/revv, Response status code: 404
+2025-07-15 17:59:06.0235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/hgfdd, Response status code: 404
+2025-07-15 17:59:06.0235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/d, Response status code: 404
+2025-07-15 17:59:06.0235 INFO Sending file. Request path: '/images/image.jpg'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\image.jpg'
+2025-07-15 17:59:06.0235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/image.jpg - 200 6817 image/jpeg 30.9153ms
+2025-07-15 17:59:21.9591 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-15 17:59:21.9591 INFO CORS policy execution successful.
+2025-07-15 17:59:21.9591 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 1.1191ms
+2025-07-15 17:59:21.9591 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 17:59:21.9591 INFO CORS policy execution successful.
+2025-07-15 17:59:21.9591 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 17:59:21.9591 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 17:59:21.9591 INFO Fetching all cars
+2025-07-15 17:59:21.9873 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 17:59:21.9925 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 25.9448ms
+2025-07-15 17:59:21.9925 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 17:59:21.9925 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 28.3237ms
+2025-07-15 17:59:22.1595 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d - - -
+2025-07-15 17:59:22.1595 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fdfdf - - -
+2025-07-15 17:59:22.1595 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/hgfdd - - -
+2025-07-15 17:59:22.1595 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/revv - - -
+2025-07-15 17:59:22.1595 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d - 404 0 - 0.3638ms
+2025-07-15 17:59:22.1595 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fdfdf - 404 0 - 0.3636ms
+2025-07-15 17:59:22.1595 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/hgfdd - 404 0 - 0.3639ms
+2025-07-15 17:59:22.1595 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/revv - 404 0 - 0.3657ms
+2025-07-15 17:59:22.1595 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/hgfdd, Response status code: 404
+2025-07-15 17:59:22.1595 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/revv, Response status code: 404
+2025-07-15 17:59:22.1595 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/fdfdf, Response status code: 404
+2025-07-15 17:59:22.1595 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/d, Response status code: 404
+2025-07-15 17:59:26.1847 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-15 17:59:26.1847 INFO CORS policy execution successful.
+2025-07-15 17:59:26.1847 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 17:59:26.1847 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 17:59:26.1847 INFO Fetching all cars
+2025-07-15 17:59:26.1997 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 17:59:26.1997 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 15.5434ms
+2025-07-15 17:59:26.1997 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-15 17:59:26.1997 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 17.3276ms
+2025-07-15 17:59:26.3766 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/revv - - -
+2025-07-15 17:59:26.3766 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d - - -
+2025-07-15 17:59:26.3766 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/hgfdd - - -
+2025-07-15 17:59:26.3766 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fdfdf - - -
+2025-07-15 17:59:26.3766 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d - 404 0 - 0.3158ms
+2025-07-15 17:59:26.3766 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fdfdf - 404 0 - 0.1520ms
+2025-07-15 17:59:26.3766 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/d, Response status code: 404
+2025-07-15 17:59:26.3766 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/fdfdf, Response status code: 404
+2025-07-15 17:59:26.3766 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/hgfdd - 404 0 - 0.3281ms
+2025-07-15 17:59:26.3766 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/revv - 404 0 - 0.2968ms
+2025-07-15 17:59:26.3766 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/hgfdd, Response status code: 404
+2025-07-15 17:59:26.3766 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/revv, Response status code: 404
+2025-07-15 18:08:02.7252 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-15 18:08:02.9061 INFO Now listening on: http://localhost:5063
+2025-07-15 18:08:02.9478 INFO Application started. Press Ctrl+C to shut down.
+2025-07-15 18:08:02.9478 INFO Hosting environment: Development
+2025-07-15 18:08:02.9478 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-15 18:08:03.2760 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-15 18:08:03.4283 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 160.2677ms
+2025-07-15 18:08:03.4463 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-15 18:08:03.4463 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.1468ms
+2025-07-15 18:08:03.4650 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-15 18:08:03.4900 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 25.0087ms
+2025-07-15 18:08:03.5332 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-15 18:08:03.5508 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 17.6417ms
+2025-07-15 18:08:27.2299 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 46
+2025-07-15 18:08:27.2299 INFO CORS policy execution successful.
+2025-07-15 18:08:27.2299 WARN Failed to determine the https port for redirect.
+2025-07-15 18:08:27.2830 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 18:08:27.2998 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-15 18:08:27.9205 INFO Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2025-07-15 18:08:27.9205 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 621.7591ms
+2025-07-15 18:08:27.9272 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 18:08:27.9272 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 401 - text/plain;+charset=utf-8 698.4873ms
+2025-07-15 18:09:02.0039 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 66
+2025-07-15 18:09:02.0128 INFO CORS policy execution successful.
+2025-07-15 18:09:02.0128 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 18:09:02.0128 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-15 18:09:02.3253 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-15 18:09:02.3253 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 313.8985ms
+2025-07-15 18:09:02.3253 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 18:09:02.3253 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 324.1267ms
+2025-07-15 18:10:47.7131 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundaryO7UTzBUXXL1nDFFX 227290
+2025-07-15 18:10:47.7131 INFO CORS policy execution successful.
+2025-07-15 18:10:47.7474 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-15 18:10:47.7474 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 18:10:47.8447 INFO Executing CreatedAtActionResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CarAuthentication.Services.CarService+<CreateAsync>d__6, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 18:10:47.8638 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 111.1035ms
+2025-07-15 18:10:47.8650 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-15 18:10:47.8650 ERROR An unhandled exception has occurred while executing the request.
+2025-07-15 18:10:47.8999 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 500 - text/plain;+charset=utf-8 186.8410ms
+2025-07-15 18:11:20.7299 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-15 18:11:20.9063 INFO Now listening on: http://localhost:5063
+2025-07-15 18:11:20.9540 INFO Application started. Press Ctrl+C to shut down.
+2025-07-15 18:11:20.9540 INFO Hosting environment: Development
+2025-07-15 18:11:20.9540 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-15 18:11:21.4232 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-15 18:11:21.5737 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 160.6353ms
+2025-07-15 18:11:21.5883 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-15 18:11:21.5883 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.1091ms
+2025-07-15 18:11:21.6046 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-15 18:11:21.6305 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 25.9033ms
+2025-07-15 18:11:21.6730 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-15 18:11:21.6911 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 18.1956ms
+2025-07-15 18:11:27.0117 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-15 18:11:27.0117 INFO CORS policy execution successful.
+2025-07-15 18:11:27.0117 WARN Failed to determine the https port for redirect.
+2025-07-15 18:11:27.0706 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 18:11:27.0886 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-15 18:11:27.7345 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-15 18:11:27.7421 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 648.7792ms
+2025-07-15 18:11:27.7421 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-15 18:11:27.7421 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 732.0373ms
+2025-07-15 18:12:14.9461 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundarytYni2aC2jh9xyR9Z 1513483
+2025-07-15 18:12:14.9461 INFO CORS policy execution successful.
+2025-07-15 18:12:14.9826 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-15 18:12:14.9826 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-15 18:12:15.0935 INFO Executing CreatedAtActionResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CarAuthentication.Services.CarService+<CreateAsync>d__6, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-15 18:12:15.1087 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 121.8742ms
+2025-07-15 18:12:15.1087 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-15 18:12:15.1087 ERROR An unhandled exception has occurred while executing the request.
+2025-07-15 18:12:15.1239 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 500 - text/plain;+charset=utf-8 177.8133ms
+2025-07-21 09:29:50.3658 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 09:29:50.6418 INFO Now listening on: http://localhost:5063
+2025-07-21 09:29:50.6845 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 09:29:50.6845 INFO Hosting environment: Development
+2025-07-21 09:29:50.6845 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 09:29:51.1086 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 09:29:51.2965 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 196.3918ms
+2025-07-21 09:29:51.3368 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 09:29:51.3368 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 1.6349ms
+2025-07-21 09:29:51.4038 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 09:29:51.4351 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 31.2983ms
+2025-07-21 09:29:51.5351 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 09:29:51.5576 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 22.5282ms
+2025-07-21 09:30:27.8544 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 09:30:27.8643 INFO CORS policy execution successful.
+2025-07-21 09:30:27.8643 WARN Failed to determine the https port for redirect.
+2025-07-21 09:30:27.9332 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:30:27.9542 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 09:30:58.4575 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 30498.4175ms
+2025-07-21 09:30:58.4575 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:30:58.4575 ERROR An unhandled exception has occurred while executing the request.
+2025-07-21 09:30:58.4711 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 500 - text/plain;+charset=utf-8 30618.8991ms
+2025-07-21 09:46:20.4685 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 09:46:20.8629 INFO Now listening on: http://localhost:5063
+2025-07-21 09:46:21.0718 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 09:46:21.0718 INFO Hosting environment: Development
+2025-07-21 09:46:21.0718 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 09:46:21.7774 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 09:46:22.1640 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 404.0944ms
+2025-07-21 09:46:22.2330 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 09:46:22.2330 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 4.2072ms
+2025-07-21 09:46:22.2528 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 09:46:22.3422 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 89.4003ms
+2025-07-21 09:46:22.5417 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 09:46:22.5726 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 30.9336ms
+2025-07-21 09:46:30.0325 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 09:46:30.0393 INFO CORS policy execution successful.
+2025-07-21 09:46:30.0393 WARN Failed to determine the https port for redirect.
+2025-07-21 09:46:30.1223 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:46:30.1496 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 09:46:31.1331 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 09:46:31.1331 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 988.1267ms
+2025-07-21 09:46:31.1459 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:46:31.1459 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 1116.1540ms
+2025-07-21 09:47:46.8662 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundaryvfD7UsyAjjSK4tTU 227205
+2025-07-21 09:47:46.8662 INFO CORS policy execution successful.
+2025-07-21 09:47:46.9152 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:47:46.9152 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:47:47.0161 INFO Executing CreatedAtActionResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CarAuthentication.Services.CarService+<CreateAsync>d__6, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 09:47:47.0413 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 121.1987ms
+2025-07-21 09:47:47.0413 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:47:47.0413 ERROR An unhandled exception has occurred while executing the request.
+2025-07-21 09:47:47.0792 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 500 - text/plain;+charset=utf-8 213.1679ms
+2025-07-21 09:48:18.9445 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundaryxPCGKJ85SW7Q8SMf 227207
+2025-07-21 09:48:18.9445 INFO CORS policy execution successful.
+2025-07-21 09:48:18.9445 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:48:18.9590 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:48:18.9915 INFO Executing CreatedAtActionResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CarAuthentication.Services.CarService+<CreateAsync>d__6, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 09:48:18.9915 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 33.5525ms
+2025-07-21 09:48:18.9915 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:48:18.9915 ERROR An unhandled exception has occurred while executing the request.
+2025-07-21 09:48:18.9915 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 500 - text/plain;+charset=utf-8 50.6194ms
+2025-07-21 09:48:28.9074 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundary8QaNNKbiBMiA0yHM 227207
+2025-07-21 09:48:28.9074 INFO CORS policy execution successful.
+2025-07-21 09:48:28.9074 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:48:28.9074 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:48:28.9377 INFO Executing CreatedAtActionResult, writing value of type 'System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CarAuthentication.Services.CarService+<CreateAsync>d__6, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 09:48:28.9377 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 29.2079ms
+2025-07-21 09:48:28.9377 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:48:28.9377 ERROR An unhandled exception has occurred while executing the request.
+2025-07-21 09:48:28.9377 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 500 - text/plain;+charset=utf-8 32.7841ms
+2025-07-21 09:50:56.6446 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 09:50:56.8075 INFO Now listening on: http://localhost:5063
+2025-07-21 09:50:56.8595 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 09:50:56.8595 INFO Hosting environment: Development
+2025-07-21 09:50:56.8595 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 09:50:57.1959 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 09:50:57.3689 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 191.0730ms
+2025-07-21 09:50:57.3844 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 09:50:57.3844 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 1.9378ms
+2025-07-21 09:50:57.4065 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 09:50:57.4359 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.4969ms
+2025-07-21 09:50:57.5693 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 09:50:57.5840 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 14.7372ms
+2025-07-21 09:51:03.3536 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 09:51:03.3536 INFO CORS policy execution successful.
+2025-07-21 09:51:03.3536 WARN Failed to determine the https port for redirect.
+2025-07-21 09:51:03.3992 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:51:03.4159 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 09:51:04.0425 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 09:51:04.0425 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 629.9039ms
+2025-07-21 09:51:04.0425 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:51:04.0425 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 698.4669ms
+2025-07-21 09:51:58.7445 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundaryUpWhJo921Qi9sPit 227198
+2025-07-21 09:51:58.7445 INFO CORS policy execution successful.
+2025-07-21 09:51:58.7942 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:51:58.7942 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:51:58.8944 INFO Executing CreatedAtRouteResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 09:51:58.9123 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 111.7333ms
+2025-07-21 09:51:58.9123 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:51:58.9123 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 201 - application/json;+charset=utf-8 168.6522ms
+2025-07-21 09:52:30.3383 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Auth/login - - -
+2025-07-21 09:52:30.3383 INFO CORS policy execution successful.
+2025-07-21 09:52:30.3383 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Auth/login - 204 - - 1.6986ms
+2025-07-21 09:52:30.3383 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 57
+2025-07-21 09:52:30.3383 INFO CORS policy execution successful.
+2025-07-21 09:52:30.3538 INFO Failed to validate the token.
+2025-07-21 09:52:30.3538 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/15/2025 1:29:05 PM', Current time (UTC): '7/21/2025 4:22:30 AM'.
+2025-07-21 09:52:30.3538 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:52:30.3538 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 09:52:30.6282 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 09:52:30.6282 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 273.9872ms
+2025-07-21 09:52:30.6282 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 09:52:30.6282 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 281.2415ms
+2025-07-21 09:52:30.6445 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-21 09:52:30.6445 INFO CORS policy execution successful.
+2025-07-21 09:52:30.6445 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 0.4055ms
+2025-07-21 09:52:30.6507 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 09:52:30.6507 INFO CORS policy execution successful.
+2025-07-21 09:52:30.6507 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 09:52:30.6507 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:52:30.6507 INFO Fetching all cars
+2025-07-21 09:52:30.6919 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 09:52:30.6965 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 41.251ms
+2025-07-21 09:52:30.6965 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 09:52:30.6965 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 45.9794ms
+2025-07-21 09:52:30.9043 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/image.jpg - - -
+2025-07-21 09:52:30.9043 INFO The file /images/image.jpg was not modified
+2025-07-21 09:52:30.9043 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/image.jpg - 304 - image/jpeg 3.6904ms
+2025-07-21 09:52:30.9217 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/hgfdd - - -
+2025-07-21 09:52:30.9217 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/hgfdd - 404 0 - 1.2485ms
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fdfdf - - -
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/a03fa12e-5038-4b64-98a9-a6414aadfd77.png - - -
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/revv - - -
+2025-07-21 09:52:30.9297 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fdfdf - 404 0 - 1.3687ms
+2025-07-21 09:52:30.9297 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/fdfdf, Response status code: 404
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d467a1c5-387a-4158-95b1-f243f8c75f40.jpeg - - -
+2025-07-21 09:52:30.9297 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/hgfdd, Response status code: 404
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d - - -
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg - - -
+2025-07-21 09:52:30.9297 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d - 404 0 - 0.1758ms
+2025-07-21 09:52:30.9297 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/d, Response status code: 404
+2025-07-21 09:52:30.9297 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/revv - 404 0 - 9.0767ms
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg - - -
+2025-07-21 09:52:30.9297 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/revv, Response status code: 404
+2025-07-21 09:52:30.9297 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg - - -
+2025-07-21 09:52:30.9443 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/0fff93e8-0680-418d-870b-0500f2de6c17.jpeg - - -
+2025-07-21 09:52:30.9703 INFO Sending file. Request path: '/images/306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg'
+2025-07-21 09:52:30.9703 INFO Sending file. Request path: '/images/0fff93e8-0680-418d-870b-0500f2de6c17.jpeg'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\0fff93e8-0680-418d-870b-0500f2de6c17.jpeg'
+2025-07-21 09:52:30.9703 INFO Sending file. Request path: '/images/6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg'
+2025-07-21 09:52:30.9703 INFO Sending file. Request path: '/images/27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg'
+2025-07-21 09:52:30.9703 INFO Sending file. Request path: '/images/d467a1c5-387a-4158-95b1-f243f8c75f40.jpeg'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\d467a1c5-387a-4158-95b1-f243f8c75f40.jpeg'
+2025-07-21 09:52:30.9703 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/0fff93e8-0680-418d-870b-0500f2de6c17.jpeg - 200 226425 image/jpeg 26.1043ms
+2025-07-21 09:52:30.9703 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg - 200 226425 image/jpeg 31.5841ms
+2025-07-21 09:52:30.9703 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg - 200 226425 image/jpeg 37.1209ms
+2025-07-21 09:52:30.9703 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg - 200 226425 image/jpeg 31.6425ms
+2025-07-21 09:52:30.9703 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d467a1c5-387a-4158-95b1-f243f8c75f40.jpeg - 200 226425 image/jpeg 37.5167ms
+2025-07-21 09:52:30.9889 INFO Sending file. Request path: '/images/a03fa12e-5038-4b64-98a9-a6414aadfd77.png'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\a03fa12e-5038-4b64-98a9-a6414aadfd77.png'
+2025-07-21 09:52:30.9889 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/a03fa12e-5038-4b64-98a9-a6414aadfd77.png - 200 1512719 image/png 59.3789ms
+2025-07-21 09:53:09.8106 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-21 09:53:09.8106 INFO CORS policy execution successful.
+2025-07-21 09:53:09.8106 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 4.2861ms
+2025-07-21 09:53:09.8198 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundaryAMajUKaWLiSraiNI 227436
+2025-07-21 09:53:09.8198 INFO CORS policy execution successful.
+2025-07-21 09:53:09.8198 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:53:09.8198 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:53:09.8578 INFO Executing CreatedAtRouteResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 09:53:09.8578 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 33.1823ms
+2025-07-21 09:53:09.8578 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 09:53:09.8578 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 201 - application/json;+charset=utf-8 38.8837ms
+2025-07-21 09:53:09.8985 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 09:53:09.8985 INFO CORS policy execution successful.
+2025-07-21 09:53:09.8985 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 09:53:09.8985 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] Get() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:53:09.8985 INFO Fetching all cars
+2025-07-21 09:53:09.9173 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 09:53:09.9173 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 22.3188ms
+2025-07-21 09:53:09.9173 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 09:53:09.9173 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 23.1381ms
+2025-07-21 09:53:10.1129 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/revv - - -
+2025-07-21 09:53:10.1129 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d - - -
+2025-07-21 09:53:10.1129 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/hgfdd - - -
+2025-07-21 09:53:10.1129 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/hgfdd - 404 0 - 0.4363ms
+2025-07-21 09:53:10.1129 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/revv - 404 0 - 0.4363ms
+2025-07-21 09:53:10.1129 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d - 404 0 - 0.3030ms
+2025-07-21 09:53:10.1129 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/hgfdd, Response status code: 404
+2025-07-21 09:53:10.1129 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/d, Response status code: 404
+2025-07-21 09:53:10.1129 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/revv, Response status code: 404
+2025-07-21 09:53:10.1147 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fdfdf - - -
+2025-07-21 09:53:10.1147 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg - - -
+2025-07-21 09:53:10.1147 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg - - -
+2025-07-21 09:53:10.1147 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fa6a9a01-5430-49ff-8226-c299c7b4e3b3.jpeg - - -
+2025-07-21 09:53:10.1147 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fdfdf - 404 0 - 4.6509ms
+2025-07-21 09:53:10.1147 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg - - -
+2025-07-21 09:53:10.1147 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/fdfdf, Response status code: 404
+2025-07-21 09:53:10.1147 INFO The file /images/27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg was not modified
+2025-07-21 09:53:10.1147 INFO The file /images/306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg was not modified
+2025-07-21 09:53:10.1147 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg - 304 - image/jpeg 2.7932ms
+2025-07-21 09:53:10.1147 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg - 304 - image/jpeg 2.7912ms
+2025-07-21 09:53:10.1147 INFO The file /images/6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg was not modified
+2025-07-21 09:53:10.1147 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg - 304 - image/jpeg 2.9158ms
+2025-07-21 09:53:10.1147 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/0fff93e8-0680-418d-870b-0500f2de6c17.jpeg - - -
+2025-07-21 09:53:10.1147 INFO The file /images/0fff93e8-0680-418d-870b-0500f2de6c17.jpeg was not modified
+2025-07-21 09:53:10.1147 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/0fff93e8-0680-418d-870b-0500f2de6c17.jpeg - 304 - image/jpeg 3.5835ms
+2025-07-21 09:53:10.1147 INFO Sending file. Request path: '/images/fa6a9a01-5430-49ff-8226-c299c7b4e3b3.jpeg'. Physical path: 'C:\Users\anagha\source\repos\CarAuthentication\wwwroot\images\fa6a9a01-5430-49ff-8226-c299c7b4e3b3.jpeg'
+2025-07-21 09:53:10.1147 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fa6a9a01-5430-49ff-8226-c299c7b4e3b3.jpeg - 200 226425 image/jpeg 10.1364ms
+2025-07-21 09:53:40.0309 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car/bynumber/8 - - -
+2025-07-21 09:53:40.0309 INFO CORS policy execution successful.
+2025-07-21 09:53:40.0309 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car/bynumber/8 - 204 - - 0.6520ms
+2025-07-21 09:53:40.0367 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car/bynumber/8 - - -
+2025-07-21 09:53:40.0367 INFO CORS policy execution successful.
+2025-07-21 09:53:40.0367 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.GetByNumber (CarAuthentication)'
+2025-07-21 09:53:40.0367 INFO Route matched with {action = "GetByNumber", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarAuthentication.models.Car]] GetByNumber(Int32) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 09:53:40.0561 INFO Executing OkObjectResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 09:53:40.0561 INFO Executed action CarAuthentication.Controllers.CarController.GetByNumber (CarAuthentication) in 14.7462ms
+2025-07-21 09:53:40.0561 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetByNumber (CarAuthentication)'
+2025-07-21 09:53:40.0561 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car/bynumber/8 - 200 - application/json;+charset=utf-8 19.8256ms
+2025-07-21 10:41:46.7421 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 10:41:46.9285 INFO Now listening on: http://localhost:5063
+2025-07-21 10:41:46.9701 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 10:41:46.9701 INFO Hosting environment: Development
+2025-07-21 10:41:46.9701 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 10:41:47.4322 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 10:41:47.5857 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 160.9309ms
+2025-07-21 10:41:47.6021 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 10:41:47.6021 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.3848ms
+2025-07-21 10:41:47.6222 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 10:41:47.6491 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 26.8659ms
+2025-07-21 10:41:47.8331 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 10:41:47.8491 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 15.9222ms
+2025-07-21 11:21:30.0414 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 11:21:30.1880 INFO Now listening on: http://localhost:5063
+2025-07-21 11:21:30.2273 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 11:21:30.2273 INFO Hosting environment: Development
+2025-07-21 11:21:30.2273 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 11:21:31.0015 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 11:21:31.1533 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 160.4774ms
+2025-07-21 11:21:31.1701 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 11:21:31.1701 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.1475ms
+2025-07-21 11:21:31.1895 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 11:21:31.2184 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 28.9319ms
+2025-07-21 11:21:31.2586 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 11:21:31.2736 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 14.9747ms
+2025-07-21 11:21:36.5315 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 11:21:36.5369 INFO CORS policy execution successful.
+2025-07-21 11:21:36.5369 WARN Failed to determine the https port for redirect.
+2025-07-21 11:21:36.5821 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 11:21:36.5997 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 11:21:37.3126 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 11:21:37.3201 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 715.716ms
+2025-07-21 11:21:37.3201 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 11:21:37.3201 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 790.6130ms
+2025-07-21 11:22:16.0006 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 11:22:16.0451 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 11:22:16.0451 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] GetAsync() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 11:22:16.0525 WARN You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-21 11:22:16.1018 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 11:22:16.1018 INFO Executed action CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication) in 64.0054ms
+2025-07-21 11:22:16.1018 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 11:22:16.1018 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 111.8164ms
+2025-07-21 11:26:46.8251 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 11:26:46.9758 INFO Now listening on: http://localhost:5063
+2025-07-21 11:26:47.0252 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 11:26:47.0252 INFO Hosting environment: Development
+2025-07-21 11:26:47.0252 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 11:26:47.3613 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 11:26:47.5236 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 174.9103ms
+2025-07-21 11:26:47.5388 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 11:26:47.5388 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.7896ms
+2025-07-21 11:26:47.5588 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 11:26:47.5859 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 27.0404ms
+2025-07-21 11:26:47.6414 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 11:26:47.6558 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 14.4218ms
+2025-07-21 11:26:52.9881 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 11:26:52.9926 INFO CORS policy execution successful.
+2025-07-21 11:26:52.9926 WARN Failed to determine the https port for redirect.
+2025-07-21 11:26:53.0365 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 11:26:53.0543 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 11:26:53.7196 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 11:26:53.7275 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 668.6124ms
+2025-07-21 11:26:53.7275 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 11:26:53.7275 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 741.0570ms
+2025-07-21 11:27:40.3782 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-21 11:27:40.3839 INFO CORS policy execution successful.
+2025-07-21 11:27:40.3839 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 6.7172ms
+2025-07-21 11:27:40.3839 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 11:27:40.3839 INFO CORS policy execution successful.
+2025-07-21 11:27:40.4228 INFO Failed to validate the token.
+2025-07-21 11:27:40.4228 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/21/2025 5:22:30 AM', Current time (UTC): '7/21/2025 5:57:40 AM'.
+2025-07-21 11:27:40.4228 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-21 11:27:40.4301 INFO AuthenticationScheme: Bearer was challenged.
+2025-07-21 11:27:40.4301 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 401 0 - 41.5381ms
+2025-07-21 11:27:45.7021 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-21 11:27:45.7021 INFO CORS policy execution successful.
+2025-07-21 11:27:45.7021 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 0.4827ms
+2025-07-21 11:27:45.7021 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 11:27:45.7021 INFO CORS policy execution successful.
+2025-07-21 11:27:45.7090 INFO Failed to validate the token.
+2025-07-21 11:27:45.7090 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/21/2025 5:22:30 AM', Current time (UTC): '7/21/2025 5:57:45 AM'.
+2025-07-21 11:27:45.7090 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-21 11:27:45.7090 INFO AuthenticationScheme: Bearer was challenged.
+2025-07-21 11:27:45.7090 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 401 0 - 3.8349ms
+2025-07-21 11:27:48.4026 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Auth/login - - -
+2025-07-21 11:27:48.4026 INFO CORS policy execution successful.
+2025-07-21 11:27:48.4026 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Auth/login - 204 - - 1.1785ms
+2025-07-21 11:27:48.4026 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 57
+2025-07-21 11:27:48.4026 INFO CORS policy execution successful.
+2025-07-21 11:27:48.4026 INFO Failed to validate the token.
+2025-07-21 11:27:48.4026 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '7/21/2025 5:22:30 AM', Current time (UTC): '7/21/2025 5:57:48 AM'.
+2025-07-21 11:27:48.4026 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 11:27:48.4026 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 11:27:48.7053 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 11:27:48.7053 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 294.5854ms
+2025-07-21 11:27:48.7053 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 11:27:48.7053 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 295.7961ms
+2025-07-21 11:27:48.7215 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 11:27:48.7215 INFO CORS policy execution successful.
+2025-07-21 11:27:48.7306 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 11:27:48.7306 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] GetAsync() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 11:27:48.7306 WARN You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-21 11:27:48.7766 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 11:27:48.7766 INFO Executed action CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication) in 53.0416ms
+2025-07-21 11:27:48.7870 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 11:27:48.7870 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 65.6468ms
+2025-07-21 11:27:49.0097 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/hgfdd - - -
+2025-07-21 11:27:49.0097 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d - - -
+2025-07-21 11:27:49.0097 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/revv - - -
+2025-07-21 11:27:49.0097 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fdfdf - - -
+2025-07-21 11:27:49.0097 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/revv - 404 0 - 0.3413ms
+2025-07-21 11:27:49.0097 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fdfdf - 404 0 - 0.3637ms
+2025-07-21 11:27:49.0097 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/hgfdd - 404 0 - 1.2188ms
+2025-07-21 11:27:49.0097 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d - 404 0 - 0.3629ms
+2025-07-21 11:27:49.0097 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/d, Response status code: 404
+2025-07-21 11:27:49.0097 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/fdfdf, Response status code: 404
+2025-07-21 11:27:49.0097 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/hgfdd, Response status code: 404
+2025-07-21 11:27:49.0097 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/revv, Response status code: 404
+2025-07-21 11:27:55.4903 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car/bynumber/129318 - - -
+2025-07-21 11:27:55.4903 INFO CORS policy execution successful.
+2025-07-21 11:27:55.4903 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car/bynumber/129318 - 204 - - 0.7219ms
+2025-07-21 11:27:55.4903 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car/bynumber/129318 - - -
+2025-07-21 11:27:55.4903 INFO CORS policy execution successful.
+2025-07-21 11:27:55.4903 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.GetByNumber (CarAuthentication)'
+2025-07-21 11:27:55.4903 INFO Route matched with {action = "GetByNumber", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarAuthentication.models.Car]] GetByNumber(Int32) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 11:27:55.5097 INFO Executing OkObjectResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 11:27:55.5097 INFO Executed action CarAuthentication.Controllers.CarController.GetByNumber (CarAuthentication) in 7.8356ms
+2025-07-21 11:27:55.5097 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetByNumber (CarAuthentication)'
+2025-07-21 11:27:55.5097 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car/bynumber/129318 - 200 - application/json;+charset=utf-8 12.2508ms
+2025-07-21 11:27:58.4359 INFO Request starting HTTP/1.1 OPTIONS http://localhost:5063/api/Car - - -
+2025-07-21 11:27:58.4359 INFO CORS policy execution successful.
+2025-07-21 11:27:58.4359 INFO Request finished HTTP/1.1 OPTIONS http://localhost:5063/api/Car - 204 - - 0.4878ms
+2025-07-21 11:27:58.4359 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 11:27:58.4359 INFO CORS policy execution successful.
+2025-07-21 11:27:58.4359 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 11:27:58.4359 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] GetAsync() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 11:27:58.4601 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 11:27:58.4601 INFO Executed action CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication) in 22.6785ms
+2025-07-21 11:27:58.4601 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 11:27:58.4601 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 24.1134ms
+2025-07-21 11:27:58.6235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/fdfdf - - -
+2025-07-21 11:27:58.6235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/hgfdd - - -
+2025-07-21 11:27:58.6235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/revv - - -
+2025-07-21 11:27:58.6235 INFO Request starting HTTP/1.1 GET http://localhost:5063/images/d - - -
+2025-07-21 11:27:58.6235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/d - 404 0 - 0.3039ms
+2025-07-21 11:27:58.6235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/revv - 404 0 - 0.2990ms
+2025-07-21 11:27:58.6235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/d, Response status code: 404
+2025-07-21 11:27:58.6235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/hgfdd - 404 0 - 0.2989ms
+2025-07-21 11:27:58.6235 INFO Request finished HTTP/1.1 GET http://localhost:5063/images/fdfdf - 404 0 - 0.2989ms
+2025-07-21 11:27:58.6235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/hgfdd, Response status code: 404
+2025-07-21 11:27:58.6235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/revv, Response status code: 404
+2025-07-21 11:27:58.6235 INFO Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5063/images/fdfdf, Response status code: 404
+2025-07-21 11:29:06.5097 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d1 - - -
+2025-07-21 11:29:06.5097 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 11:29:06.5222 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarAuthentication.models.Car]] Get(System.String) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 11:29:06.5222 INFO Executing ObjectResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 11:29:06.5222 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 7.2128ms
+2025-07-21 11:29:06.5222 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 11:29:06.5222 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d1 - 200 - application/json;+charset=utf-8 19.8980ms
+2025-07-21 12:08:02.2193 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 12:08:02.3877 INFO Now listening on: http://localhost:5063
+2025-07-21 12:08:02.4346 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 12:08:02.4346 INFO Hosting environment: Development
+2025-07-21 12:08:02.4346 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 12:08:03.8480 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 12:08:04.0058 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 167.2717ms
+2025-07-21 12:08:04.0263 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 12:08:04.0263 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 3.3609ms
+2025-07-21 12:08:04.0546 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 12:08:04.0839 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.2726ms
+2025-07-21 12:08:04.1777 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 12:08:04.1962 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 18.5143ms
+2025-07-21 12:08:11.0955 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 12:08:11.1003 INFO CORS policy execution successful.
+2025-07-21 12:08:11.1003 WARN Failed to determine the https port for redirect.
+2025-07-21 12:08:11.1621 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 12:08:11.1790 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 12:08:11.8759 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 12:08:11.8841 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 700.3454ms
+2025-07-21 12:08:11.8841 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 12:08:11.8841 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 790.2888ms
+2025-07-21 12:08:47.2773 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 12:08:47.3254 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 12:08:47.3254 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] GetAsync() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:08:47.3254 WARN You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-21 12:08:47.3797 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 12:08:47.3900 INFO Executed action CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication) in 61.8516ms
+2025-07-21 12:08:47.3900 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 12:08:47.3900 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 112.9992ms
+2025-07-21 12:09:44.5684 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d4 - - -
+2025-07-21 12:09:44.5684 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 12:09:44.5684 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CarAuthentication.models.Car]] Get(System.String) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:09:44.5978 INFO Executing OkObjectResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 12:09:44.5978 INFO Executed action CarAuthentication.Controllers.CarController.Get (CarAuthentication) in 19.2966ms
+2025-07-21 12:09:44.5978 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Get (CarAuthentication)'
+2025-07-21 12:09:44.5978 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d4 - 200 - application/json;+charset=utf-8 29.8534ms
+2025-07-21 12:11:37.2684 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 12:11:37.4346 INFO Now listening on: http://localhost:5063
+2025-07-21 12:11:37.4770 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 12:11:37.4770 INFO Hosting environment: Development
+2025-07-21 12:11:37.4770 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 12:11:38.0766 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 12:11:38.2235 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 162.1551ms
+2025-07-21 12:11:38.2392 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 12:11:38.2412 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 1.9456ms
+2025-07-21 12:11:38.2590 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 12:11:38.2825 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 23.5262ms
+2025-07-21 12:11:38.3239 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 12:11:38.3399 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 16.0624ms
+2025-07-21 12:11:44.3464 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 12:11:44.3514 INFO CORS policy execution successful.
+2025-07-21 12:11:44.3514 WARN Failed to determine the https port for redirect.
+2025-07-21 12:11:44.3952 INFO Executing endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 12:11:44.4126 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.models.Login) on controller CarAuthentication.Controllers.AuthController (CarAuthentication).
+2025-07-21 12:11:45.0613 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 12:11:45.0689 INFO Executed action CarAuthentication.Controllers.AuthController.Login (CarAuthentication) in 651.7347ms
+2025-07-21 12:11:45.0689 INFO Executed endpoint 'CarAuthentication.Controllers.AuthController.Login (CarAuthentication)'
+2025-07-21 12:11:45.0689 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 724.1853ms
+2025-07-21 12:12:01.5578 INFO Request starting HTTP/1.1 GET http://localhost:5063/api/Car - - -
+2025-07-21 12:12:01.6032 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 12:12:01.6032 INFO Route matched with {action = "Get", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[CarAuthentication.models.Car]]] GetAsync() on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:12:01.6032 WARN You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-21 12:12:01.6842 INFO Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarAuthentication.models.Car, CarAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-21 12:12:01.7007 INFO Executed action CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication) in 92.8986ms
+2025-07-21 12:12:01.7007 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
+2025-07-21 12:12:01.7007 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 143.3736ms
+2025-07-21 12:12:31.6891 INFO Request starting HTTP/1.1 PUT http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d1 - application/json 221
+2025-07-21 12:12:31.6891 INFO CORS policy execution successful.
+2025-07-21 12:12:31.6929 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:12:31.6929 INFO Route matched with {action = "UpdateCar", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCar(Int32, CarAuthentication.models.Car) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:12:31.7675 INFO Executing OkObjectResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 12:12:31.7675 INFO Executed action CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication) in 72.1901ms
+2025-07-21 12:12:31.7675 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:12:31.7675 INFO Request finished HTTP/1.1 PUT http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d1 - 200 - application/json;+charset=utf-8 79.2648ms
+2025-07-21 12:12:40.8531 INFO Request starting HTTP/1.1 DELETE http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d1 - - -
+2025-07-21 12:12:40.8531 INFO CORS policy execution successful.
+2025-07-21 12:12:40.8531 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Delete (CarAuthentication)'
+2025-07-21 12:12:40.8531 INFO Route matched with {action = "Delete", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.String) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:12:40.8858 INFO Executing StatusCodeResult, setting HTTP status code 204
+2025-07-21 12:12:40.8858 INFO Executed action CarAuthentication.Controllers.CarController.Delete (CarAuthentication) in 24.9026ms
+2025-07-21 12:12:40.8858 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Delete (CarAuthentication)'
+2025-07-21 12:12:40.8858 INFO Request finished HTTP/1.1 DELETE http://localhost:5063/api/Car/67c0521f4177ed3804c8d6d1 - 204 - - 33.0398ms
+2025-07-21 12:13:27.8423 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Car - multipart/form-data;+boundary=----WebKitFormBoundarybyIc2gHogOzaXsI3 1332164
+2025-07-21 12:13:27.8423 INFO CORS policy execution successful.
+2025-07-21 12:13:27.8423 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 12:13:27.8527 INFO Route matched with {action = "Create", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(CarAuthentication.models.CarUpload) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:13:27.9176 INFO Executing CreatedAtRouteResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 12:13:27.9291 INFO Executed action CarAuthentication.Controllers.CarController.Create (CarAuthentication) in 76.3022ms
+2025-07-21 12:13:27.9291 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.Create (CarAuthentication)'
+2025-07-21 12:13:27.9291 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Car - 201 - application/json;+charset=utf-8 87.6933ms
+2025-07-21 12:15:26.0134 INFO Request starting HTTP/1.1 PUT http://localhost:5063/api/Car/687de18fa13c4a0d9a246040 - application/json 207
+2025-07-21 12:15:26.0134 INFO CORS policy execution successful.
+2025-07-21 12:15:26.0134 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:15:26.0134 INFO Route matched with {action = "UpdateCar", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCar(Int32, CarAuthentication.models.Car) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:15:26.0217 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-21 12:15:26.0217 INFO Executed action CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication) in 14.3654ms
+2025-07-21 12:15:26.0217 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:15:26.0217 INFO Request finished HTTP/1.1 PUT http://localhost:5063/api/Car/687de18fa13c4a0d9a246040 - 400 - application/problem+json;+charset=utf-8 18.0436ms
+2025-07-21 12:15:49.5261 INFO Request starting HTTP/1.1 PUT http://localhost:5063/api/Car/687de18fa13c4a0d9a246040 - application/json 226
+2025-07-21 12:15:49.5261 INFO CORS policy execution successful.
+2025-07-21 12:15:49.5261 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:15:49.5261 INFO Route matched with {action = "UpdateCar", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCar(Int32, CarAuthentication.models.Car) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:15:49.5261 INFO Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-21 12:15:49.5261 INFO Executed action CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication) in 7.4826ms
+2025-07-21 12:15:49.5261 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:15:49.5261 INFO Request finished HTTP/1.1 PUT http://localhost:5063/api/Car/687de18fa13c4a0d9a246040 - 400 - application/problem+json;+charset=utf-8 9.8325ms
+2025-07-21 12:16:00.0707 INFO Request starting HTTP/1.1 PUT http://localhost:5063/api/Car/687de18fa13c4a0d9a246040 - application/json 227
+2025-07-21 12:16:00.0707 INFO CORS policy execution successful.
+2025-07-21 12:16:00.0707 INFO Executing endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:16:00.0707 INFO Route matched with {action = "UpdateCar", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateCar(Int32, CarAuthentication.models.Car) on controller CarAuthentication.Controllers.CarController (CarAuthentication).
+2025-07-21 12:16:00.0707 INFO Executing OkObjectResult, writing value of type 'CarAuthentication.models.Car'.
+2025-07-21 12:16:00.0707 INFO Executed action CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication) in 9.5429ms
+2025-07-21 12:16:00.0707 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.UpdateCar (CarAuthentication)'
+2025-07-21 12:16:00.0707 INFO Request finished HTTP/1.1 PUT http://localhost:5063/api/Car/687de18fa13c4a0d9a246040 - 200 - application/json;+charset=utf-8 10.8706ms
+2025-07-21 12:27:28.6767 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 12:27:28.8366 INFO Now listening on: http://localhost:5063
+2025-07-21 12:27:28.8774 INFO Application started. Press Ctrl+C to shut down.
+2025-07-21 12:27:28.8774 INFO Hosting environment: Development
+2025-07-21 12:27:28.8774 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-21 12:27:29.7762 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-21 12:27:29.9249 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 159.9194ms
+2025-07-21 12:27:29.9400 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-21 12:27:29.9427 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.6923ms
+2025-07-21 12:27:29.9590 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-21 12:27:29.9828 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 23.7916ms
+2025-07-21 12:27:30.0358 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-21 12:27:30.0499 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 14.2606ms
+2025-07-21 12:28:01.6723 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 50
+2025-07-21 12:28:01.6805 INFO CORS policy execution successful.
+2025-07-21 12:28:01.6805 WARN Failed to determine the https port for redirect.
+2025-07-21 12:28:01.7234 INFO Executing endpoint 'AuthController.Login (CarAuthentication)'
+2025-07-21 12:28:01.7406 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.Commands.LoginUserCommandRequest) on controller AuthController (CarAuthentication).
+2025-07-21 12:28:01.7406 WARN You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-07-21 12:28:02.3990 INFO Executing OkObjectResult, writing value of type 'CarAuthentication.Commands.LoginUserCommandResponse'.
+2025-07-21 12:28:02.3990 INFO Executed action AuthController.Login (CarAuthentication) in 660.7325ms
+2025-07-21 12:28:02.3990 INFO Executed endpoint 'AuthController.Login (CarAuthentication)'
+2025-07-21 12:28:02.3990 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 737.1892ms
+2025-07-21 12:28:24.1827 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/register - application/json 70
+2025-07-21 12:28:24.1827 INFO CORS policy execution successful.
+2025-07-21 12:28:24.1827 INFO Executing endpoint 'AuthController.Register (CarAuthentication)'
+2025-07-21 12:28:24.1827 INFO Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CarAuthentication.Commands.RegisterUserCommandRequest) on controller AuthController (CarAuthentication).
+2025-07-21 12:28:24.2053 INFO Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 12:28:24.2053 INFO Executed action AuthController.Register (CarAuthentication) in 17.4322ms
+2025-07-21 12:28:24.2053 INFO Executed endpoint 'AuthController.Register (CarAuthentication)'
+2025-07-21 12:28:24.2053 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/register - 400 - application/json;+charset=utf-8 23.8607ms
+2025-07-21 12:28:50.1090 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/register - application/json 75
+2025-07-21 12:28:50.1090 INFO CORS policy execution successful.
+2025-07-21 12:28:50.1090 INFO Executing endpoint 'AuthController.Register (CarAuthentication)'
+2025-07-21 12:28:50.1090 INFO Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CarAuthentication.Commands.RegisterUserCommandRequest) on controller AuthController (CarAuthentication).
+2025-07-21 12:28:50.4395 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 12:28:50.4395 INFO Executed action AuthController.Register (CarAuthentication) in 326.0618ms
+2025-07-21 12:28:50.4395 INFO Executed endpoint 'AuthController.Register (CarAuthentication)'
+2025-07-21 12:28:50.4395 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/register - 200 - application/json;+charset=utf-8 331.0639ms
+2025-07-21 12:30:03.5658 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 57
+2025-07-21 12:30:03.5658 INFO CORS policy execution successful.
+2025-07-21 12:30:03.5658 INFO Executing endpoint 'AuthController.Login (CarAuthentication)'
+2025-07-21 12:30:03.5658 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.Commands.LoginUserCommandRequest) on controller AuthController (CarAuthentication).
+2025-07-21 12:30:03.8064 INFO Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-21 12:30:03.8064 INFO Executed action AuthController.Login (CarAuthentication) in 240.001ms
+2025-07-21 12:30:03.8064 INFO Executed endpoint 'AuthController.Login (CarAuthentication)'
+2025-07-21 12:30:03.8064 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 401 - application/json;+charset=utf-8 241.2483ms
+2025-07-21 12:30:13.0332 INFO Request starting HTTP/1.1 POST http://localhost:5063/api/Auth/login - application/json 56
+2025-07-21 12:30:13.0332 INFO CORS policy execution successful.
+2025-07-21 12:30:13.0332 INFO Executing endpoint 'AuthController.Login (CarAuthentication)'
+2025-07-21 12:30:13.0332 INFO Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarAuthentication.Commands.LoginUserCommandRequest) on controller AuthController (CarAuthentication).
+2025-07-21 12:30:13.1678 INFO Executing OkObjectResult, writing value of type 'CarAuthentication.Commands.LoginUserCommandResponse'.
+2025-07-21 12:30:13.1678 INFO Executed action AuthController.Login (CarAuthentication) in 133.9817ms
+2025-07-21 12:30:13.1678 INFO Executed endpoint 'AuthController.Login (CarAuthentication)'
+2025-07-21 12:30:13.1678 INFO Request finished HTTP/1.1 POST http://localhost:5063/api/Auth/login - 200 - application/json;+charset=utf-8 134.9941ms

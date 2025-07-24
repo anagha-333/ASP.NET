@@ -1,0 +1,172 @@
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("@/assets/car.jpeg") center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 0; /* Increased padding for more vertical space */
+    min-height: 500px; /* Increased minimum height */
+}
+
+    .hero-section h1 {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+
+    .hero-section h2 {
+        font-size: 1.8rem;
+        margin: 15px 0;
+        font-weight: 700;
+    }
+
+    .hero-section p {
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+
+
+.navbar-brand img {
+    height: 20px;
+}
+
+
+
+.navbar-nav .nav-item .btn {
+    margin-left: 15px; /* Add space between About Us and Login button */
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+
+.card-hover1:hover {
+    background-color: hsl(160, 87%, 22%); /* Blue background on hover */
+    color: #ffffff; /* Text color changes to white */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-5px); /* Add a hover effect */
+    }
+
+.card-title {
+    color: #2c3e50;
+}
+
+.card-text {
+    color: #34495e;
+}
+
+.card-hover {
+    background-color: #f8f9fa; /* Default background */
+    transition: all 0.3s ease-in-out;
+    min-height: 600px; /* Consistent card height */
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners */
+}
+
+    .card-hover:hover {
+        background-color: #0a02aa; /* Blue background on hover */
+        color: #ffffff; /* Text color changes to white */
+        transform: scale(1.05); /* Slight zoom effect */
+    }
+
+        .card-hover:hover .card-title, .card-hover:hover .card-text {
+            color: #ffffff; /* Ensures all text turns white */
+        }
+
+    .card-hover i {
+        font-size: 3rem;
+        color: hsl(243, 97%, 31%); /* Icon default color */
+        transition: color 0.3s ease;
+    }
+
+    .card-hover:hover i {
+        color: #ffffff; /* Icon changes to white on hover */
+    }
+
+
+    .card-hover img {
+        max-height: 250px;
+        object-fit: cover;
+        border-radius: 10px; /* Matches card styling */
+        transition: opacity 0.3s ease;
+    }
+
+    .card-hover:hover img {
+        opacity: 0.9; /* Slightly dimmed image on hover */
+    }
+
+.custom-footer {
+    background-color: #000080; /* Dark blue background matching the image */
+    color: #ffffff; /* White text color */
+    padding: 40px 20px; /* Padding top/bottom and left/right */
+    font-family: Arial, sans-serif; /* Consistent font */
+}
+
+    .custom-footer .footer-logo img {
+        max-width: 120px; /* Adjust logo size */
+        height: auto;
+        margin-bottom: 20px; /* Space below the logo */
+    }
+
+    .custom-footer .app-badges img {
+        width: 120px; /* Size of app store badges */
+        height: auto;
+        margin-right: 10px; /* Space between badges */
+        margin-bottom: 20px; /* Space below badges */
+    }
+
+    .custom-footer .app-badges a {
+        display: inline-block; /* Allows side-by-side alignment */
+    }
+
+    .custom-footer .footer-links ul {
+        list-style: none; /* Remove bullet points */
+        padding: 0;
+        margin: 0;
+    }
+
+        .custom-footer .footer-links ul li {
+            margin-bottom: 10px; /* Space between list items */
+        }
+
+            .custom-footer .footer-links ul li a {
+                color: #ffffff; /* White link color */
+                text-decoration: none; /* No underline by default */
+                font-size: 0.95rem; /* Adjust link font size */
+            }
+
+                .custom-footer .footer-links ul li a:hover {
+                    text-decoration: underline; /* Underline on hover */
+                }
+
+    .custom-footer .footer-copyright {
+        font-size: 0.85rem; /* Smaller font for copyright */
+        margin-top: 30px; /* Space above copyright */
+    }
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767.98px) {
+    .custom-footer {
+        text-align: center; /* Center content on small screens */
+    }
+
+        .custom-footer .footer-logo,
+        .custom-footer .app-badges,
+        .custom-footer .footer-links {
+            margin-bottom: 25px; /* More space between sections on mobile */
+        }
+
+            .custom-footer .app-badges a {
+                margin-right: 5px;
+                margin-left: 5px; /* Center badges slightly better */
+            }
+}

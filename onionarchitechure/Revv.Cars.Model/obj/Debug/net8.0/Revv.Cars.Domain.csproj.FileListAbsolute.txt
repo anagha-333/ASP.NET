@@ -1,0 +1,15 @@
+C:\Users\anagha\source\repos\Revv.Cars.Model\bin\Debug\net8.0\Revv.Cars.Domain.deps.json
+C:\Users\anagha\source\repos\Revv.Cars.Model\bin\Debug\net8.0\Revv.Cars.Domain.dll
+C:\Users\anagha\source\repos\Revv.Cars.Model\bin\Debug\net8.0\Revv.Cars.Domain.pdb
+C:\Users\anagha\source\repos\Revv.Cars.Model\bin\Debug\net8.0\Revv.Cars.Shared.dll
+C:\Users\anagha\source\repos\Revv.Cars.Model\bin\Debug\net8.0\Revv.Cars.Shared.pdb
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Cars.Domain.csproj.AssemblyReference.cache
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Cars.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Cars.Domain.AssemblyInfoInputs.cache
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Cars.Domain.AssemblyInfo.cs
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Cars.Domain.csproj.CoreCompileInputs.cache
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Car.54B5E762.Up2Date
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Cars.Domain.dll
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\refint\Revv.Cars.Domain.dll
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\Revv.Cars.Domain.pdb
+C:\Users\anagha\source\repos\Revv.Cars.Model\obj\Debug\net8.0\ref\Revv.Cars.Domain.dll

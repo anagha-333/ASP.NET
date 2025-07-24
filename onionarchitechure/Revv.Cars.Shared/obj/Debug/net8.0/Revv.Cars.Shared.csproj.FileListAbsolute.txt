@@ -1,0 +1,12 @@
+C:\Users\anagha\source\repos\Revv.Cars.Shared\bin\Debug\net8.0\Revv.Cars.Shared.deps.json
+C:\Users\anagha\source\repos\Revv.Cars.Shared\bin\Debug\net8.0\Revv.Cars.Shared.dll
+C:\Users\anagha\source\repos\Revv.Cars.Shared\bin\Debug\net8.0\Revv.Cars.Shared.pdb
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\Revv.Cars.Shared.csproj.AssemblyReference.cache
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\Revv.Cars.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\Revv.Cars.Shared.AssemblyInfoInputs.cache
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\Revv.Cars.Shared.AssemblyInfo.cs
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\Revv.Cars.Shared.csproj.CoreCompileInputs.cache
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\Revv.Cars.Shared.dll
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\refint\Revv.Cars.Shared.dll
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\Revv.Cars.Shared.pdb
+C:\Users\anagha\source\repos\Revv.Cars.Shared\obj\Debug\net8.0\ref\Revv.Cars.Shared.dll

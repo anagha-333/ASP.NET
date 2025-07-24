@@ -1,0 +1,496 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B784C-1F65-4291-807E-D01B1A5194C7}|..\\Revv.Cars.Model\\Revv.Cars.Domain.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.model\\carmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B784C-1F65-4291-807E-D01B1A5194C7}|..\\Revv.Cars.Model\\Revv.Cars.Domain.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.model\\models\\carupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\carupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.web\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\commands\\createcarcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\commands\\createcarcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740A0A7E-E29D-4764-8423-97F615E463C1}|..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.domainservice\\commandshandler\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740A0A7E-E29D-4764-8423-97F615E463C1}|..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.domainservice\\querieshandler\\getallcarqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\queries\\getallcarqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\queries\\getallcarqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740A0A7E-E29D-4764-8423-97F615E463C1}|..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.domainservice\\querieshandler\\getcarbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\queries\\getcarbyidqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\queries\\getcarbyidqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.web\\revv.cars.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|solutionrelative:revv.cars.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B784C-1F65-4291-807E-D01B1A5194C7}|..\\Revv.Cars.Model\\Revv.Cars.Domain.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.model\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B784C-1F65-4291-807E-D01B1A5194C7}|..\\Revv.Cars.Model\\Revv.Cars.Domain.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.model\\revv.cars.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740A0A7E-E29D-4764-8423-97F615E463C1}|..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.domainservice\\revv.cars.domainservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.web\\revv.cars.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|solutionrelative:revv.cars.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1333E96F-6560-4507-A9F4-3D48C50C1CF7}|Revv.Cars.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740A0A7E-E29D-4764-8423-97F615E463C1}|..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.domainservice\\mongodb\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740A0A7E-E29D-4764-8423-97F615E463C1}|..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.domainservice\\commandshandler\\updatecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740A0A7E-E29D-4764-8423-97F615E463C1}|..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.domainservice\\commandshandler\\deletecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\revv.cars.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\commands\\updatecarcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\commands\\updatecarcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\commands\\deletecarcommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC482A4C-939C-4446-81BE-A191C9A42C33}|..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj|c:\\users\\anagha\\source\\repos\\revv.cars.shared\\commands\\deletecarcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\models\\Car.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Model\\models\\Car.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\models\\Car.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Model\\models\\Car.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowCAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:16:25.473Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-23T04:26:06.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-23T04:25:19.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCarCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\CreateCarCommandResponse.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Commands\\CreateCarCommandResponse.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\CreateCarCommandResponse.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Commands\\CreateCarCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:04:46.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarUpload.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\CarUpload.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\CarUpload.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\CarUpload.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\CarUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:50.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Car.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Car.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Car.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:46.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarUpload.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\models\\CarUpload.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Model\\models\\CarUpload.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\models\\CarUpload.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Model\\models\\CarUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:17:13.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\CarMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Model\\CarMappingProfile.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\CarMappingProfile.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Model\\CarMappingProfile.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowBcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:25:09.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateCarCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\CreateCarCommandRequest.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Commands\\CreateCarCommandRequest.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\CreateCarCommandRequest.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Commands\\CreateCarCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:04:41.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwF4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:31:31.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\CommandsHandler\\CreateCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.DomainService\\CommandsHandler\\CreateCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\CommandsHandler\\CreateCarCommandHandler.cs",
+              "RelativeToolTip": "..\\Revv.Cars.DomainService\\CommandsHandler\\CreateCarCommandHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:01:24.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwC8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:04:06.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAllCarQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\QueriesHandler\\GetAllCarQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.DomainService\\QueriesHandler\\GetAllCarQueryHandler.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\QueriesHandler\\GetAllCarQueryHandler.cs",
+              "RelativeToolTip": "..\\Revv.Cars.DomainService\\QueriesHandler\\GetAllCarQueryHandler.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:39:46.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetAllCarQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetAllCarQueryResponse.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Queries\\GetAllCarQueryResponse.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetAllCarQueryResponse.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Queries\\GetAllCarQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:30.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllCarQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetAllCarQueryRequest.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Queries\\GetAllCarQueryRequest.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetAllCarQueryRequest.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Queries\\GetAllCarQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:28.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetCarByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\QueriesHandler\\GetCarByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.DomainService\\QueriesHandler\\GetCarByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\QueriesHandler\\GetCarByIdQueryHandler.cs",
+              "RelativeToolTip": "..\\Revv.Cars.DomainService\\QueriesHandler\\GetCarByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:41:37.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetCarByIdQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryResponse.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryResponse.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryResponse.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:38.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetCarByIdQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryRequest.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryRequest.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryRequest.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Queries\\GetCarByIdQueryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:37.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Revv.Cars.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Web.csproj",
+              "RelativeDocumentMoniker": "Revv.Cars.Web.csproj",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Web.csproj",
+              "RelativeToolTip": "Revv.Cars.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T09:02:38.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Revv.Cars.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\Revv.Cars.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Model\\Revv.Cars.Domain.csproj",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Model\\Revv.Cars.Domain.csproj",
+              "RelativeToolTip": "..\\Revv.Cars.Model\\Revv.Cars.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T09:04:32.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Revv.Cars.DomainService.csproj",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj",
+              "RelativeToolTip": "..\\Revv.Cars.DomainService\\Revv.Cars.DomainService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T09:51:27.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Revv.Cars.Web.http",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Web.http",
+              "RelativeDocumentMoniker": "Revv.Cars.Web.http",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Web.http",
+              "RelativeToolTip": "Revv.Cars.Web.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-21T11:01:12.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T09:02:48.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\MongoDb\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.DomainService\\MongoDb\\MongoDBSettings.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\MongoDb\\MongoDBSettings.cs",
+              "RelativeToolTip": "..\\Revv.Cars.DomainService\\MongoDb\\MongoDBSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:36:51.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\CommandsHandler\\DeleteCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.DomainService\\CommandsHandler\\DeleteCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\CommandsHandler\\DeleteCarCommandHandler.cs",
+              "RelativeToolTip": "..\\Revv.Cars.DomainService\\CommandsHandler\\DeleteCarCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:29:31.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UpdateCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\CommandsHandler\\UpdateCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.DomainService\\CommandsHandler\\UpdateCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.DomainService\\CommandsHandler\\UpdateCarCommandHandler.cs",
+              "RelativeToolTip": "..\\Revv.Cars.DomainService\\CommandsHandler\\UpdateCarCommandHandler.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:29:38.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Revv.Cars.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Revv.Cars.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T09:32:08.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateCarCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\UpdateCarCommandResponse.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Commands\\UpdateCarCommandResponse.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\UpdateCarCommandResponse.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Commands\\UpdateCarCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:26.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateCarCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\UpdateCarCommandRequest.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Commands\\UpdateCarCommandRequest.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\UpdateCarCommandRequest.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Commands\\UpdateCarCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DeleteCarCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\DeleteCarCommandResponse.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Commands\\DeleteCarCommandResponse.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\DeleteCarCommandResponse.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Commands\\DeleteCarCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:04:48.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteCarCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\DeleteCarCommandRequest.cs",
+              "RelativeDocumentMoniker": "..\\Revv.Cars.Shared\\Commands\\DeleteCarCommandRequest.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Shared\\Commands\\DeleteCarCommandRequest.cs",
+              "RelativeToolTip": "..\\Revv.Cars.Shared\\Commands\\DeleteCarCommandRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:09:22.177Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

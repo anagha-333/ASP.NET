@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anagha\\source\\repos\\DependencyInjection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{151DC0E5-9CDF-44E7-8E10-38D2C80466F1}|DependencyInjection.csproj|c:\\users\\anagha\\source\\repos\\dependencyinjection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151DC0E5-9CDF-44E7-8E10-38D2C80466F1}|DependencyInjection.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151DC0E5-9CDF-44E7-8E10-38D2C80466F1}|DependencyInjection.csproj|c:\\users\\anagha\\source\\repos\\dependencyinjection\\services\\exampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151DC0E5-9CDF-44E7-8E10-38D2C80466F1}|DependencyInjection.csproj|solutionrelative:services\\exampleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151DC0E5-9CDF-44E7-8E10-38D2C80466F1}|DependencyInjection.csproj|c:\\users\\anagha\\source\\repos\\dependencyinjection\\controllers\\examplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151DC0E5-9CDF-44E7-8E10-38D2C80466F1}|DependencyInjection.csproj|solutionrelative:controllers\\examplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\DependencyInjection\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\DependencyInjection\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T08:51:21.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExampleService.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\DependencyInjection\\Services\\ExampleService.cs",
+              "RelativeDocumentMoniker": "Services\\ExampleService.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\DependencyInjection\\Services\\ExampleService.cs",
+              "RelativeToolTip": "Services\\ExampleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T08:49:54.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExampleController.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\DependencyInjection\\Controllers\\ExampleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExampleController.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\DependencyInjection\\Controllers\\ExampleController.cs",
+              "RelativeToolTip": "Controllers\\ExampleController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T08:49:04.502Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

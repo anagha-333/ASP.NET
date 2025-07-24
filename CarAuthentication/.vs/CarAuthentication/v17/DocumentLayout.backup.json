@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\commandshandler\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:commandshandler\\createcarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\notifications\\handlers\\carcreateeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:notifications\\handlers\\carcreateeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\notifications\\carcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:notifications\\carcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|c:\\users\\anagha\\source\\repos\\carauthentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD18E6F9-E0A2-4B56-930B-977D97516402}|CarAuthentication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateCarCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\CommandsHandler\\CreateCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "CommandsHandler\\CreateCarCommandHandler.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\CommandsHandler\\CreateCarCommandHandler.cs",
+              "RelativeToolTip": "CommandsHandler\\CreateCarCommandHandler.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:01:28.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarCreatedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Notifications\\CarCreatedEvent.cs",
+              "RelativeDocumentMoniker": "Notifications\\CarCreatedEvent.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Notifications\\CarCreatedEvent.cs",
+              "RelativeToolTip": "Notifications\\CarCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:58:55.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarCreateEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Notifications\\Handlers\\CarCreateEventHandler.cs",
+              "RelativeDocumentMoniker": "Notifications\\Handlers\\CarCreateEventHandler.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\Notifications\\Handlers\\CarCreateEventHandler.cs",
+              "RelativeToolTip": "Notifications\\Handlers\\CarCreateEventHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:58:04.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CarAuthentication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T09:02:16.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

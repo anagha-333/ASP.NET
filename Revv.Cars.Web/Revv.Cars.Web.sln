@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revv.Cars.Web", "Revv.Cars.Web.csproj", "{1333E96F-6560-4507-A9F4-3D48C50C1CF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Application", "01.Application", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Shared", "04.Shared", "{3A6DD4D0-F039-4C4D-82DB-EE8823E43FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Domain", "03.Domain", "{A1AE4D7F-D781-45BC-A3AB-3687EFD6F4DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.DomainService", "02.DomainService", "{4D0BB87D-A84C-4FAE-A85D-BD86E9C60DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revv.Cars.Domain", "..\Revv.Cars.Model\Revv.Cars.Domain.csproj", "{A32B784C-1F65-4291-807E-D01B1A5194C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revv.Cars.DomainService", "..\Revv.Cars.DomainService\Revv.Cars.DomainService.csproj", "{740A0A7E-E29D-4764-8423-97F615E463C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revv.Cars.Shared", "..\Revv.Cars.Shared\Revv.Cars.Shared.csproj", "{EC482A4C-939C-4446-81BE-A191C9A42C33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1333E96F-6560-4507-A9F4-3D48C50C1CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1333E96F-6560-4507-A9F4-3D48C50C1CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1333E96F-6560-4507-A9F4-3D48C50C1CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1333E96F-6560-4507-A9F4-3D48C50C1CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32B784C-1F65-4291-807E-D01B1A5194C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32B784C-1F65-4291-807E-D01B1A5194C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32B784C-1F65-4291-807E-D01B1A5194C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32B784C-1F65-4291-807E-D01B1A5194C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740A0A7E-E29D-4764-8423-97F615E463C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740A0A7E-E29D-4764-8423-97F615E463C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740A0A7E-E29D-4764-8423-97F615E463C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740A0A7E-E29D-4764-8423-97F615E463C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC482A4C-939C-4446-81BE-A191C9A42C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC482A4C-939C-4446-81BE-A191C9A42C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC482A4C-939C-4446-81BE-A191C9A42C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC482A4C-939C-4446-81BE-A191C9A42C33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1333E96F-6560-4507-A9F4-3D48C50C1CF7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A32B784C-1F65-4291-807E-D01B1A5194C7} = {A1AE4D7F-D781-45BC-A3AB-3687EFD6F4DF}
+		{740A0A7E-E29D-4764-8423-97F615E463C1} = {4D0BB87D-A84C-4FAE-A85D-BD86E9C60DE2}
+		{EC482A4C-939C-4446-81BE-A191C9A42C33} = {3A6DD4D0-F039-4C4D-82DB-EE8823E43FEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BF2DAF2-1EDE-42CA-9CA6-580FD3986755}
+	EndGlobalSection
+EndGlobal

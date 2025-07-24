@@ -1,0 +1,17 @@
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\bin\Debug\net8.0\Revv.Cars.DomainService.deps.json
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\bin\Debug\net8.0\Revv.Cars.DomainService.dll
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\bin\Debug\net8.0\Revv.Cars.DomainService.pdb
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\bin\Debug\net8.0\Revv.Cars.Domain.dll
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\bin\Debug\net8.0\Revv.Cars.Shared.dll
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\bin\Debug\net8.0\Revv.Cars.Domain.pdb
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\bin\Debug\net8.0\Revv.Cars.Shared.pdb
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Cars.DomainService.csproj.AssemblyReference.cache
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Cars.DomainService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Cars.DomainService.AssemblyInfoInputs.cache
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Cars.DomainService.AssemblyInfo.cs
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Cars.DomainService.csproj.CoreCompileInputs.cache
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Car.B1DE0447.Up2Date
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Cars.DomainService.dll
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\refint\Revv.Cars.DomainService.dll
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\Revv.Cars.DomainService.pdb
+C:\Users\anagha\source\repos\Revv.Cars.DomainService\obj\Debug\net8.0\ref\Revv.Cars.DomainService.dll

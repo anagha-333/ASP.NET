@@ -1,0 +1,9 @@
+﻿namespace CarAuthentication.models
+{
+    public class MongoDBSettings
+    {
+        public string ConnectionString { get; set; }
+        public string DatabaseName { get; set; }
+        public string CarCollectionName { get; set; }
+    }
+}

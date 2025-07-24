@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|c:\\users\\anagha\\source\\repos\\crudmongodb\\service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|solutionrelative:service\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|c:\\users\\anagha\\source\\repos\\crudmongodb\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|c:\\users\\anagha\\source\\repos\\crudmongodb\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|c:\\users\\anagha\\source\\repos\\crudmongodb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|c:\\users\\anagha\\source\\repos\\crudmongodb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|c:\\users\\anagha\\source\\repos\\crudmongodb\\models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|solutionrelative:models\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|c:\\users\\anagha\\source\\repos\\crudmongodb\\crudmongodb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{443B6BC2-E4B9-4239-93B5-14A8E9F4A45C}|CrudMongoDB.csproj|solutionrelative:crudmongodb.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:41:21.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\service\\CarService.cs",
+              "RelativeDocumentMoniker": "service\\CarService.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\service\\CarService.cs",
+              "RelativeToolTip": "service\\CarService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:41:10.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA2wD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:40:44.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\models\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "models\\MongoDBSettings.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\models\\MongoDBSettings.cs",
+              "RelativeToolTip": "models\\MongoDBSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:39:26.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrudMongoDB.http",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\CrudMongoDB.http",
+              "RelativeDocumentMoniker": "CrudMongoDB.http",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\CrudMongoDB.http",
+              "RelativeToolTip": "CrudMongoDB.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-09T10:38:23.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\models\\Car.cs",
+              "RelativeDocumentMoniker": "models\\Car.cs",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\models\\Car.cs",
+              "RelativeToolTip": "models\\Car.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T10:38:17.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\anagha\\source\\repos\\CrudMongoDB\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T10:36:59.618Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
