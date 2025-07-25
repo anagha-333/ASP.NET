@@ -2289,9 +2289,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Web.csproj",
-      "projectName": "Revv.Cars.Web",
-      "projectPath": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Web.csproj",
+      "projectUniqueName": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Applications.Web.csproj",
+      "projectName": "Revv.Cars.Applications.Web",
+      "projectPath": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Applications.Web.csproj",
       "packagesPath": "C:\\Users\\anagha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\obj\\",
       "projectStyle": "PackageReference",
