@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "686fa5205d0aa535f259b532"
+  },
+  "username": "string",
+  "password": "$2a$11$HV.QNOi8Av1QRXXU1SzHsOp0Lk1NOmMDyy4hd0exQ/ZFgPoDsIDiq",
+  "role": "string"
+},
+{
+  "_id": {
+    "$oid": "68707f7b930d4e378cc0d724"
+  },
+  "username": "anagha",
+  "password": "$2a$11$7K0xvCt8Mtx3Wk1/7DcpnuspAQ49l.oONrBm9jIJw79OpD/EHoxHK",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "687495a9f41d9414d3c0dbfb"
+  },
+  "username": "rj",
+  "password": "$2a$11$dRKvcjvxX2tauRUINeJ9OO3H04Cy5fQeN6fVvdWti99PCFbwc/HcW",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "6874be715e01657d3b207978"
+  },
+  "username": "anagha@gmail.com",
+  "password": "$2a$11$lbs6Tybjn2VC.8bvikf2ne23MucnZXTVkcaSNVt4ukySm2bGNRkGa",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "6874fc9305756a6cc6d2c289"
+  },
+  "username": "rose@gmail.com",
+  "password": "$2a$11$rrfbETtdAeO7Z9lB.BRW/OmZQX4Eb404BnvDwBHIwJtyxsTBEP.Qa",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "687de52a111b0bf8be1c8af9"
+  },
+  "username": "rj@gmail.com",
+  "password": "$2a$11$9QhmxxOfRxPwm7wX/5iuf.rBRCsG3dgmPTrmD2DfYD46/bNR8mDV.",
+  "role": "admin"
+}]
