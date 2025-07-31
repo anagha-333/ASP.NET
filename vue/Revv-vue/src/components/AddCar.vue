@@ -2,8 +2,7 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import axios from 'axios';
-import Header from './Header.vue';
-import Footer from './Footer.vue';
+
 
 const router = useRouter();
 const errorMessage = ref('');
@@ -78,7 +77,7 @@ async function saveNewCar() {
 
 <template>
   <div>
-    <Header />
+    
     <div class="container my-5">
       <h2 class="mb-4">Add New Car</h2>
       <form @submit.prevent="saveNewCar" class="card p-4 shadow-sm">
@@ -129,7 +128,7 @@ async function saveNewCar() {
         <button type="submit" class="btn btn-success">Save</button>
       </form>
     </div>
-    <Footer />
+ 
   </div>
 </template>
 

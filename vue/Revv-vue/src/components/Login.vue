@@ -1,5 +1,4 @@
 <template>
-  <Header />
   <div class="login-card">
     <div class="logo">
       <img src="@/assets/logo.svg" alt="REVV Logo" />
@@ -31,7 +30,7 @@
             placeholder="Password"
           />
           <span class="input-group-text" @click="togglePassword" style="cursor: pointer">
-            <i :class="showPassword ? 'bi bi-eye-slash' : 'bi bi-eye'"></i>
+            <i :class="showPassword ? 'bi bi-eye-slash' : 'bi bi-eye'" />
           </span>
         </div>
         <ErrorMessage name="password" class="invalid-feedback" />
@@ -59,8 +58,6 @@
 
     <p class="copyright">&copy; {{ new Date().getFullYear() }} REVV. All rights reserved.</p>
   </div>
-
-  <Footer />
 </template>
 
 <script setup lang="ts">
@@ -68,19 +65,21 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { Form, Field, ErrorMessage, useForm } from 'vee-validate'
 import * as yup from 'yup'
-import Header from './Header.vue'
-import Footer from './Footer.vue'
 import axios from '../api'
+import { useAuthStore } from '../stores/auth'; // <-- Pinia store
 
-// Router
+
 const router = useRouter()
-
-// States
 const showPassword = ref(false)
 const keepSignedIn = ref(false)
 const specialCharRegex = /[!@#$%^&*(),.?":{}|<>]/
+const { values } = useForm()
+const auth = useAuthStore(); // <-- initialize store
 
-// Validation schema
+const togglePassword = () => {
+  showPassword.value = !showPassword.value
+}
+
 const schema = yup.object({
   email: yup.string().required('Email is required').email('Must be a valid email'),
   password: yup
@@ -90,15 +89,6 @@ const schema = yup.object({
     .matches(specialCharRegex, 'At least one special character')
 })
 
-// Form values
-const { values } = useForm()
-
-// Toggle password visibility
-const togglePassword = () => {
-  showPassword.value = !showPassword.value
-}
-
-// Submit handler
 const onSubmit = async (values: any) => {
   try {
     const response = await axios.post('http://localhost:5063/api/Auth/login', {
@@ -106,16 +96,15 @@ const onSubmit = async (values: any) => {
       password: values.password,
     });
     const { token, username } = response.data;
-    localStorage.setItem('token', token);
-    localStorage.setItem('loggedInUser', JSON.stringify({ name: username }));
+
+    const authStore = useAuthStore()
+    authStore.login(token, username)
+
     router.push({ path: '/welcome', query: { email: values.email } });
   } catch (err: any) {
     alert(err.response?.data?.message || 'Invalid email or password');
   }
-};
-
-
-
+}
 </script>
 
 <style scoped>

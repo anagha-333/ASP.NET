@@ -218,18 +218,12 @@
         ],
         "parameters": [
           {
-            "name": "number",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
             "name": "id",
             "in": "path",
             "required": true,
             "schema": {
+              "maxLength": 24,
+              "minLength": 24,
               "type": "string"
             }
           }
@@ -272,6 +266,29 @@
               "maxLength": 24,
               "minLength": 24,
               "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Car/bynumber/{number}": {
+      "get": {
+        "tags": [
+          "Car"
+        ],
+        "parameters": [
+          {
+            "name": "number",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],

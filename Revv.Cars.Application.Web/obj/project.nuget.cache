@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lkk8Ekm3uGQ=",
+  "dgSpecHash": "kHRr7KACZBM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Web\\Revv.Cars.Applications.Web.csproj",
+  "projectFilePath": "C:\\Users\\anagha\\source\\repos\\Revv.Cars.Application.Web\\Revv.Cars.Applications.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anagha\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\anagha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

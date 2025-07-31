@@ -1,5 +1,17 @@
 <script setup lang="ts">
+import { RouterLink, useRouter } from 'vue-router'
+import { ref, onMounted } from 'vue'
+import { useAuthStore } from '../stores/auth'; // <-- Pinia store
 
+
+const router = useRouter()
+const auth = useAuthStore();
+
+
+function handleLogout() {
+  auth.logout();
+  router.push('/login');
+}
 </script>
 
 <template>
@@ -8,6 +20,7 @@
       <RouterLink class="navbar-brand" to="/">
         <img src="@/assets/logo.svg" alt="REVV Logo" />
       </RouterLink>
+
       <button
         class="navbar-toggler"
         type="button"
@@ -16,8 +29,9 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav align-items-center gap-2">
           <li class="nav-item">
             <a
               class="nav-link"
@@ -26,19 +40,24 @@
               >About Us</a
             >
           </li>
-          <li class="nav-item">
+
+          <li class="nav-item" v-if="!auth.isLoggedIn">
             <RouterLink class="btn btn-primary text-white" to="/login">
               Login
             </RouterLink>
           </li>
- <li class="nav-item">
-                       <RouterLink to="/register" class="btn btn-primary text-white">User Register</RouterLink>
 
+          <li class="nav-item" v-if="!auth.isLoggedIn">
+            <RouterLink class="btn btn-primary text-white" to="/register">
+              User Register
+            </RouterLink>
+          </li>
+
+          <li class="nav-item" v-if="auth.isLoggedIn">
+           <button @click="handleLogout" class="login-btn">Logout</button>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </template>
-
-

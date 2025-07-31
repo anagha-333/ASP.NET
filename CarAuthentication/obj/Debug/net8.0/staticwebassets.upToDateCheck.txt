@@ -3,7 +3,9 @@ wwwroot\images\27b37ac5-7911-4fb2-b264-18df86bfef4d.jpeg
 wwwroot\images\306b467f-2395-4d33-8caf-1c0313d36b4d.jpeg
 wwwroot\images\4c31bc37-1e98-49b5-bb72-a4eebf5ef2fb.png
 wwwroot\images\6c5926cc-b56e-4ad1-b1d8-d6eca55c75ad.jpeg
+wwwroot\images\9e3b3e7b-dea6-48e9-badc-a00d19439877.png
 wwwroot\images\a03fa12e-5038-4b64-98a9-a6414aadfd77.png
 wwwroot\images\d467a1c5-387a-4158-95b1-f243f8c75f40.jpeg
 wwwroot\images\fa6a9a01-5430-49ff-8226-c299c7b4e3b3.jpeg
 wwwroot\images\image.jpg
+wwwroot\images\ec5978ef-890c-49bc-b047-dcc759553642.jpg

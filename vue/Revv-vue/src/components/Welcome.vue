@@ -1,23 +1,20 @@
 <template>
-  <Header />
+ 
 
   <div class="welcome-container">
     <div class="text-center">
       <h1>Welcome, {{ email }}!</h1>
       <p class="lead">You have successfully logged in.</p>
 
-       <div class="text-end mb-4">
-      <button class="btn btn-success" @click="goToAddCar">
-        + Add Car
-      </button>
-    </div>
-
+      <div class="text-end mb-4">
+        <button class="btn btn-success" @click="goToAddCar">
+          + Add Car
+        </button>
+      </div>
 
       <div class="car-grid">
-        <div class="car-card" v-for="(car, index) in cars" :key="index">
-         
-          <!-- <img :src="getImageUrl(car.image)" alt="Car Image" /> -->
-           <img :src="`${baseUrl}/images/${car.image}`" class="card-img-top" alt="Car Image" />
+        <div class="car-card" v-for="(car, index) in paginatedCars" :key="index">
+          <img :src="`${baseUrl}/images/${car.image}`" class="card-img-top" alt="Car Image" />
           <div class="card-body">
             <h5>{{ car.brand }} {{ car.model }} ({{ car.year }})</h5>
             <p><strong>Created At:</strong> {{ car.createdAt || '-' }}</p>
@@ -26,40 +23,53 @@
             <p><strong>Reg No:</strong> {{ car.number }}</p>
             <p><strong>Date:</strong> {{ car.date }}</p>
 
-            <!-- <button @click="editCar(car)" class="edit-button">Edit</button>
-          <button @click="deleteCar(car.id)" class="delete-button">Delete</button> -->
-<div class="button-row">
-  <button @click="editCar(car)" class="action-button edit">Edit</button>
-  <button @click="deleteCar(car.id)" class="action-button delete">Delete</button>
-</div>
-
+            <div class="button-row">
+              <button @click="editCar(car)" class="action-button edit">Edit</button>
+              <button @click="deleteCar(car.id)" class="action-button delete">Delete</button>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Pagination Controls -->
+      <div class="pagination-controls mt-4 text-center">
+        <button class="btn btn-secondary me-2" :disabled="currentPage === 1" @click="goToPage(currentPage - 1)">
+          Prev
+        </button>
+
+        <span>Page {{ currentPage }} of {{ totalPages }}</span>
+
+        <button class="btn btn-secondary ms-2" :disabled="currentPage === totalPages" @click="goToPage(currentPage + 1)">
+          Next
+        </button>
+      </div>
+
     </div>
   </div>
 
-  <Footer />
+  
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { onMounted, ref, computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import Header from './Header.vue'
-import Footer from './Footer.vue'
+
 import axios from 'axios'
 
-const baseUrl = import.meta.env.VITE_BASE_API_URL.replace('/api', '');
+// Base URL
+const baseUrl = import.meta.env.VITE_BASE_API_URL.replace('/api', '')
 
+// Routing
+const route = useRoute()
+const router = useRouter()
 
+// Email
+const rawEmail = (route.query.email as string) || 'Guest'
+const email = rawEmail.includes('@') ? rawEmail.split('@')[0] : rawEmail
 
-function goToAddCar() {
-  router.push({ name: 'AddCar' }); 
-}
-
-// Type definition
+// Car Interface
 interface Car {
-   id: string   
+  id: string
   image: string
   brand: string
   model: string
@@ -70,6 +80,46 @@ interface Car {
   createdAt?: string
   updatedAt?: string
 }
+
+// State
+const cars = ref<Car[]>([])
+
+// Pagination State
+const currentPage = ref(1)
+const pageSize = 6
+
+const paginatedCars = computed(() => {
+  const start = (currentPage.value - 1) * pageSize
+  return cars.value.slice(start, start + pageSize)
+})
+
+const totalPages = computed(() =>
+  Math.ceil(cars.value.length / pageSize)
+)
+
+function goToPage(page: number) {
+  if (page >= 1 && page <= totalPages.value) {
+    currentPage.value = page
+  }
+}
+
+// Navigation
+function goToAddCar() {
+  router.push({ name: 'AddCar' })
+}
+
+// Edit Car
+function editCar(car: Car) {
+  router.push({
+    name: 'EditCar',
+    query: {
+      number: String(car.number),
+      email: rawEmail
+    }
+  })
+}
+
+// Delete Car
 async function deleteCar(id: string) {
   const confirmed = confirm("Are you sure you want to delete this car?");
   if (!confirmed) return;
@@ -88,7 +138,7 @@ async function deleteCar(id: string) {
       }
     });
 
-    // Remove deleted car from the list
+    // Remove car from local state
     cars.value = cars.value.filter(car => car.id !== id);
     alert("Car deleted successfully.");
   } catch (error) {
@@ -97,15 +147,7 @@ async function deleteCar(id: string) {
   }
 }
 
-// State
-const cars = ref<Car[]>([])
-
-const route = useRoute()
-const router = useRouter()
-const rawEmail = (route.query.email as string) || 'Guest'
-const email = rawEmail.includes('@') ? rawEmail.split('@')[0] : rawEmail
-
-// Fetch cars from backend
+// Fetch Cars
 onMounted(async () => {
   try {
     const token = localStorage.getItem('token')
@@ -128,20 +170,6 @@ onMounted(async () => {
     alert('Failed to load cars.')
   }
 })
-
-function getImageUrl(name: string): string {
-  return new URL(`../assets/${name}`, import.meta.url).href
-}
-// Go to Edit page
-function editCar(car: Car) {
-  router.push({
-    name: 'EditCar',
-    query: {
-      number: String(car.number),
-      email: rawEmail
-    }
-  })
-}
 </script>
 
 <style scoped>
@@ -203,44 +231,9 @@ function editCar(car: Car) {
   font-size: 0.95rem;
 }
 
-.edit-button {
-  align-self: flex-start;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  font-size: 0.85rem;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 0.5rem;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.edit-button:hover {
-  background-color: #0056b3;
-}
-.delete-button {
-  align-self: flex-start;
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  font-size: 0.85rem;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 0.3rem;
-  margin-left: 0.3rem;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.delete-button:hover {
-  background-color: #c82333;
-}
-
-
 .button-row {
   display: flex;
-  justify-content: space-between; /* <-- this puts Edit on left, Delete on right */
+  justify-content: space-between;
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
@@ -254,7 +247,6 @@ function editCar(car: Car) {
   transition: background-color 0.2s ease-in-out;
 }
 
-/* Specific styles */
 .action-button.edit {
   background-color: #007bff;
   color: white;
@@ -273,7 +265,11 @@ function editCar(car: Car) {
   background-color: #c82333;
 }
 
-
-
-
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
 </style>

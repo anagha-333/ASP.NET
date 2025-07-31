@@ -1,5 +1,5 @@
 <template>
-  <Header />
+  
   <div class="login-card">
     <div class="logo">
       <img src="@/assets/logo.svg" alt="REVV Logo" />
@@ -67,7 +67,7 @@
 
     <p class="copyright mt-4">&copy; {{ new Date().getFullYear() }} REVV. All rights reserved.</p>
   </div>
-  <Footer />
+  
 </template>
 
 <script setup lang="ts">
@@ -76,8 +76,7 @@ import { useRouter } from 'vue-router'
 import axios from '../api' // your axios instance or replace with full URL
 import { Form, Field, ErrorMessage, useForm } from 'vee-validate'
 import * as yup from 'yup'
-import Header from './Header.vue'
-import Footer from './Footer.vue'
+
 
 const router = useRouter()
 const showPassword = ref(false)

@@ -2,11 +2,11 @@
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 
-import Header from './Header.vue';
+
 import HeroSection from './HeroSection.vue';
 import cards from './cards.vue';
 import Longcards from './Longcards.vue';
-import Footer from './Footer.vue';
+
 
 // Define a reactive variable for cars
 const cars = ref<string[]>([]);
@@ -17,7 +17,7 @@ const cars = ref<string[]>([]);
 
 <template>
   <div>
-    <Header />
+    
     <HeroSection />
     <cards />
     <Longcards />
@@ -30,7 +30,7 @@ const cars = ref<string[]>([]);
       </ul>
     </div>
 
-    <Footer />
+    
   </div>
 </template>
 

@@ -22,7 +22,7 @@ namespace CarAuthentication.CommandsHandler
 
         public async Task<UpdateCarCommandResponse> Handle(UpdateCarCommandRequest request, CancellationToken cancellationToken)
         {
-            var existing = await _cars.Find(c => c.Number == request.Number).FirstOrDefaultAsync(cancellationToken);
+            var existing = await _cars.Find(c => c.Id == request.Id).FirstOrDefaultAsync(cancellationToken);
 
             if (existing == null)
             {
@@ -35,10 +35,10 @@ namespace CarAuthentication.CommandsHandler
 
             var updated = request.UpdatedCar;
             updated.Id = existing.Id;
-            updated.Number = existing.Number;
-            updated.Image = existing.Image;
             updated.CreatedAt = existing.CreatedAt;
             updated.UpdatedAt = DateTime.UtcNow;
+            updated.Image = existing.Image;
+            updated.Number = existing.Number; // optional: number shouldn't change?
 
             await _cars.ReplaceOneAsync(c => c.Id == existing.Id, updated, cancellationToken: cancellationToken);
 
@@ -48,5 +48,6 @@ namespace CarAuthentication.CommandsHandler
                 Car = updated
             };
         }
+
     }
 }

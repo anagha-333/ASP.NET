@@ -97,11 +97,11 @@ namespace CarAuthentication.Controllers
 
         [Authorize]
         [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> UpdateCar(int number, [FromBody] Car updatedCar)
+        public async Task<IActionResult> UpdateCar(string id, [FromBody] Car updatedCar)
         {
             var command = new UpdateCarCommandRequest
             {
-                Number = number,
+                Id = id,
                 UpdatedCar = updatedCar
             };
 
@@ -112,6 +112,20 @@ namespace CarAuthentication.Controllers
 
             return Ok(result.Car);
         }
+
+
+        [Authorize]
+        [HttpGet("bynumber/{number}")]
+        public async Task<IActionResult> GetCarByNumber(int number)
+        {
+            var car = await _mediator.Send(new GetCarByNumberQueryRequest { Number = number });
+
+            if (car == null)
+                return NotFound(new { message = "Car not found" });
+
+            return Ok(car);
+        }
+
 
         [Authorize]
         [HttpDelete("{id:length(24)}")]

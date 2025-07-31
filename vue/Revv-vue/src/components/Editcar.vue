@@ -1,5 +1,5 @@
 <template>
-  <Header />
+
 
   <div class="edit-container">
     <h2>Edit Car Details</h2>
@@ -30,15 +30,13 @@
     </form>
   </div>
 
-  <Footer />
 </template>
 
 <script setup lang="ts">
 import { useRoute, useRouter } from 'vue-router'
 import { reactive, onMounted } from 'vue'
 import axios from 'axios'
-import Header from './Header.vue'
-import Footer from './Footer.vue'
+
 
 const route = useRoute()
 const router = useRouter()
@@ -101,7 +99,7 @@ async function updateCar() {
   }
 
   try {
-    await axios.put(`http://localhost:5063/api/Car/${form.number}`, {
+    await axios.put(`http://localhost:5063/api/Car/${form.id}`, {
         id: form.id,
         image: form.image,
       brand: form.brand,

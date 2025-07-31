@@ -133,18 +133,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "number",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
       },
       {
         "Name": "updatedCar",
         "Type": "CarAuthentication.models.Car",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
         "IsRequired": true
       }
     ],
@@ -161,6 +156,22 @@
       {
         "Name": "id",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarAuthentication.Controllers.CarController",
+    "Method": "GetCarByNumber",
+    "RelativePath": "api/Car/bynumber/{number}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "number",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
