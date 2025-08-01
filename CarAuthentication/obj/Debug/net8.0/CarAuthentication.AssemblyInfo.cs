@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarAuthentication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f99503e88a62767206df8759c4ed9da2830851a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1592f2a5ea85ef5b87c072b98cf757e6b556a6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarAuthentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarAuthentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3241,3 +3241,16 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-07-31 10:04:40.1797 INFO Executed action CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication) in 9.5461ms
 2025-07-31 10:04:40.1797 INFO Executed endpoint 'CarAuthentication.Controllers.CarController.GetAsync (CarAuthentication)'
 2025-07-31 10:04:40.1797 INFO Request finished HTTP/1.1 GET http://localhost:5063/api/Car - 200 - application/json;+charset=utf-8 10.3719ms
+2025-07-31 16:28:51.6019 INFO User profile is available. Using 'C:\Users\anagha\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-31 16:28:51.7609 INFO Now listening on: http://localhost:5063
+2025-07-31 16:28:51.7996 INFO Application started. Press Ctrl+C to shut down.
+2025-07-31 16:28:51.7996 INFO Hosting environment: Development
+2025-07-31 16:28:51.7996 INFO Content root path: C:\Users\anagha\source\repos\CarAuthentication
+2025-07-31 16:28:52.6234 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/index.html - - -
+2025-07-31 16:28:52.8348 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/index.html - 200 - text/html;charset=utf-8 222.1508ms
+2025-07-31 16:28:52.8512 INFO Request starting HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - - -
+2025-07-31 16:28:52.8512 INFO Request finished HTTP/1.1 GET http://localhost:5063/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript;+charset=utf-8 2.1344ms
+2025-07-31 16:28:52.8733 INFO Request starting HTTP/1.1 GET http://localhost:5063/_vs/browserLink - - -
+2025-07-31 16:28:52.9543 INFO Request finished HTTP/1.1 GET http://localhost:5063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 80.9359ms
+2025-07-31 16:28:53.1988 INFO Request starting HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - - -
+2025-07-31 16:28:53.2199 INFO Request finished HTTP/1.1 GET http://localhost:5063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 21.1526ms
